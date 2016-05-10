@@ -1,0 +1,6 @@
+framework module Squall {
+  umbrella header "Squall.h"
+
+  export *
+  module * { export * }
+}
