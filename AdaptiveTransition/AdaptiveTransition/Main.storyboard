@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lsh-HR-3jX">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--First Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="First Controller" customClass="FromViewController" customModule="AdaptiveTransition" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="f03-Ct-Q98"/>
+                    <connections>
+                        <segue destination="n50-bT-d0m" kind="show" identifier="SquallTransition" id="XSq-ux-CLX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69" y="853"/>
+        </scene>
+        <!--Second Controller-->
+        <scene sceneID="zDx-iS-xyk">
+            <objects>
+                <viewController id="n50-bT-d0m" userLabel="Second Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="67Q-Qt-ELY"/>
+                        <viewControllerLayoutGuide type="bottom" id="hd9-X2-VoA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Igh-Ed-efT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2s-ay-Qxe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848" y="-14"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FGi-fl-Sd1">
+            <objects>
+                <navigationController id="lsh-HR-3jX" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2SC-8T-fTe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <outlet property="delegate" destination="AP9-Kq-nlN" id="Crz-eO-AAO"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="syO-NE-9hE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndi-GG-hec" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="AP9-Kq-nlN" customClass="NavigationDelegate" customModule="AdaptiveTransition" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="-248" y="67"/>
+        </scene>
+    </scenes>
+</document>
