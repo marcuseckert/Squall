@@ -1,3 +1,4 @@
+<img src="http://marcuseckert.com/squallSandbox/images/logoBlack.svg" width="50" />
 # Squall-Examples
 This repository contains After Effects and Xcode projects to help better understand the Squall SDK.
 Some examples will also have a companion tutorial explaining some concepts in detail.
