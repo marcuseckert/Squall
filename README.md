@@ -14,4 +14,7 @@ Learn how to create a spinner in After Effects and use the SLCoreAnimationBuildD
 
 ### [Adaptive Transition](http://marcuseckert.com/squall/tutorials/transition)
 Learn how to create a transition in After Effects, swap out AE layers with already existing ones, prevent select properties from being evaluated and how to adapt animations to different screen sizes.
+
+<img src="http://marcuseckert.com/squallSandbox/images/transition.gif" />
+
 [more...](http://marcuseckert.com/squall/tutorials/transition)
