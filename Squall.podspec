@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'Squall.framework'
 	s.source_files = 'Squall.framework/Headers/**/*.h'  
 s.public_header_files = 'Squall.framework/Headers/**/*.h'
-  s.frameworks = 'UIKit', 'QuartzCore', 'Squall'
+  s.frameworks = 'UIKit', 'QuartzCore'
   s.requires_arc = true
   s.platform = :ios
 
