@@ -1,6 +1,6 @@
 <img src="http://marcuseckert.com/squallSandbox/images/logoBlack.svg" width="50" />
-# Squall-Examples
-This repository contains After Effects and Xcode projects to help better understand the Squall SDK.
+# Squall
+This repository contains the latest version of the Squall SDK as well as After Effects and Xcode projects to help better understand it.
 Some examples will also have a companion tutorial explaining some concepts in detail.
 
 **Note:** You will need a Squall license to properly run these examples. Learn more at [Squall.no](https://www.squall.no).
