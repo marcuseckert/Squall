@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/SLLicense.h</key>
 		<data>
-		WQ/EbHahnDjBMydKHAfPt9fXDwk=
+		ezTzYdmFipeGs8GJPUb9iI8aY94=
 		</data>
 		<key>Headers/SLLivePreview.h</key>
 		<data>
@@ -71,6 +71,10 @@
 		<key>rsaCert.der</key>
 		<data>
 		mnP01avEZ5W5/Y0jrMNjd+Bkzco=
+		</data>
+		<key>squallLicense.pdf</key>
+		<data>
+		uoWHPpQSc4xGlYXR491Zr0Gdm90=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -123,11 +127,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WQ/EbHahnDjBMydKHAfPt9fXDwk=
+			ezTzYdmFipeGs8GJPUb9iI8aY94=
 			</data>
 			<key>hash2</key>
 			<data>
-			LZcvV0PHhFrVlGpQYEd37UCybE4ao13LXhdESNASjGk=
+			Z1XKAXzSI77a1JZYaWVuP9UemMWZ4V8M9hxMgQxSrYY=
 			</data>
 		</dict>
 		<key>Headers/SLLivePreview.h</key>
@@ -249,6 +253,17 @@
 			<key>hash2</key>
 			<data>
 			PueVWkdMsf/A2NR5Xb4raSF863O89fE3k72L85WFNxQ=
+			</data>
+		</dict>
+		<key>squallLicense.pdf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uoWHPpQSc4xGlYXR491Zr0Gdm90=
+			</data>
+			<key>hash2</key>
+			<data>
+			d/a+B2GSMqVEsyZyNnWQxqFEnt6xkyhJaIPZKupXfZU=
 			</data>
 		</dict>
 	</dict>

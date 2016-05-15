@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.xcconfig       = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Squall"' }
   s.preserve_paths = 'Squall.framework'
 s.source_files = 'Squall.framework/Headers/**/*.h'  
-s.public_header_files = 'Squall.framework/Headers/**/*.h'
+	s.public_header_files = 'Squall.framework/Headers/**/*.h'
   s.frameworks = 'UIKit', 'QuartzCore'
   s.ios.vendored_frameworks = 'Squall.framework'
   s.requires_arc = true
