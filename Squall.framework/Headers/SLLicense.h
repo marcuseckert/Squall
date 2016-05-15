@@ -7,8 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/*!
+ Squall class taking care that everything is as it should be.
+ */
 @interface Squall : NSObject
+
+/*!
+ Set the license key before you use any of the Squall classes (e.g. the app delegate) to unlock the full functionality.
+ 
+ @param license	Your (very long) license key
+ */
 +(void)setLicenseKey:(NSString*)license;
 
 @end
