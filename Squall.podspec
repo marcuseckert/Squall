@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Squall"
-  s.version          = "1.11"
+  s.version          = "1.111"
   s.summary          = "Squall  - After Effects to iOS."
   s.ios.deployment_target = "8.0"
   s.platform     = :ios, '8.0'
@@ -22,15 +22,15 @@ Pod::Spec.new do |s|
 
   
   s.resource_bundles = {
-    'Squall' => ['Squall.framework/rsaCert.der']
+    'Squall' => ['Squall.framework/rsaCert.der', 'Squall.framework/squallLicense.pdf']
   }
   s.xcconfig       = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Squall"' }
   s.preserve_paths = 'Squall.framework'
-s.source_files = 'Squall.framework/Headers/**/*.h'  
-	s.public_header_files = 'Squall.framework/Headers/**/*.h'
+  s.source_files = 'Squall.framework/Headers/**/*.h'  
+  s.public_header_files = 'Squall.framework/Headers/**/*.h'
   s.frameworks = 'UIKit', 'QuartzCore'
   s.ios.vendored_frameworks = 'Squall.framework'
   s.requires_arc = true
-  s.platform = :ios
+  
 
 end
