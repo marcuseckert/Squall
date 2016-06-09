@@ -8,9 +8,9 @@
 
 import Foundation
 
-func callBlockAfter(block : ()->(), duration : Double) {
-    let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(duration * Double(NSEC_PER_SEC)))
-    dispatch_after(delayTime, dispatch_get_main_queue(), { () -> Void in
-        block()
-    })
+public struct Queue {
+    static func main(after seconds: Double, block: dispatch_block_t) {
+        let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(seconds * Double(NSEC_PER_SEC)))
+        dispatch_after(delayTime, dispatch_get_main_queue(), block)
+    }
 }
