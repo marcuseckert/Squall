@@ -77,10 +77,10 @@ class TransitionManager: NSObject, UIViewControllerAnimatedTransitioning {
                 transitionContext.containerView()?.addSubview(toView!)
                 
                 //calling complete transition right after results in a bad access violation due to the change in layer hierarchy
-                callBlockAfter({
+                Queue.main(after: 0.01) {
                     animation.removeFromSuperlayer()
                     transitionContext.completeTransition(true)
-                }, duration: 0.01)
+                }
             }
         }
     }

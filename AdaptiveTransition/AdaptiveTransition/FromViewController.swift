@@ -20,11 +20,11 @@ class FromViewController: UIViewController, UIViewControllerTransitioningDelegat
         
         let newViewC = ToViewController(nibName: nil, bundle: nil)
         
-        callBlockAfter({
+        Queue.main(after: 0.5) { 
             newViewC.view.frame = self.view.frame
             newViewC.modalPresentationStyle = .Custom
             self.navigationController?.pushViewController(newViewC, animated: true)
-            }, duration: 0.5)
+        }
         
         
     }
