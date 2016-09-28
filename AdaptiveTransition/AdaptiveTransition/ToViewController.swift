@@ -10,14 +10,14 @@ import Foundation
 import UIKit
 
 class ToViewController: UIViewController {
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
         
         //The glitching seems to have to due with the webview
         
-        let url = NSURL(string:"http://www.zeit.de")
-        let req = NSURLRequest(URL:url!)
-        let w = UIWebView(frame: UIScreen.mainScreen().bounds)
+        let url = URL(string:"http://www.zeit.de")
+        let req = URLRequest(url:url!)
+        let w = UIWebView(frame: UIScreen.main.bounds)
         w.loadRequest(req)
         
         self.view.addSubview(w)
@@ -36,8 +36,10 @@ class ToViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prefersStatusBarHidden() -> Bool {
-        return true
+    override var prefersStatusBarHidden: Bool {
+        get {
+            return true
+        }  
     }
     
     

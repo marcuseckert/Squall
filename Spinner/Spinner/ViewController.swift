@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = UIColor(red: 8.0/255.0, green: 17.0/255.0, blue: 28.0/255.0, alpha: 1.0)
         
-        let spinner = Spinner(frame: CGRectZero)
+        let spinner = Spinner(frame: CGRect.zero)
         spinner.center = self.view.center
         self.view.addSubview(spinner)
     }

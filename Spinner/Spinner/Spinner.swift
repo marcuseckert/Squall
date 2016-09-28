@@ -21,7 +21,7 @@ class Spinner: UIView, SLCoreAnimationBuildDelegate {
         let r = SLReader()
         var animationInfo : SLAnimationInformation?
         do {
-            animationInfo = try r.parseFileFromBundle("spinner.sqa")
+            animationInfo = try r.parseFile(fromBundle:"spinner.sqa")
         } catch {
             print("error \(error)")
         }
@@ -29,7 +29,7 @@ class Spinner: UIView, SLCoreAnimationBuildDelegate {
         if animationInfo != nil {
             let a = SLCoreAnimation.init()
             a.buildDelegate = self
-            a.buildWithInformation(animationInfo!)
+            a.build(with:animationInfo!)
             a.play()
             
             //We set the view's frame to the frame of the animation
@@ -45,7 +45,7 @@ class Spinner: UIView, SLCoreAnimationBuildDelegate {
     
     //This delegate method gets all the animations Squall wants to add to a layer.
     //Plus the layer Squall created and its name as it is in the AE comp.
-    func shouldAddAnimations(group: CAAnimationGroup, toLayer layer: CALayer, withName name:String) -> CAAnimationGroup? {
+    func shouldAddAnimations(_ group: CAAnimationGroup, to layer: CALayer, withName name:String) -> CAAnimationGroup? {
         switch name {
         case "Null":
                 for ani in group.animations! as! [CAKeyframeAnimation] {

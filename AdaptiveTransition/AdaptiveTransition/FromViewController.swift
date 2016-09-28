@@ -16,20 +16,22 @@ class FromViewController: UIViewController, UIViewControllerTransitioningDelegat
         
         self.view.backgroundColor = UIColor(red: 8.0/255.0, green: 17.0/255.0, blue: 28.0/255.0, alpha: 1.0)
         
-        self.navigationController?.navigationBarHidden = true
+        self.navigationController?.isNavigationBarHidden = true
         
         let newViewC = ToViewController(nibName: nil, bundle: nil)
         
         callBlockAfter({
             newViewC.view.frame = self.view.frame
-            newViewC.modalPresentationStyle = .Custom
+            newViewC.modalPresentationStyle = .custom
             self.navigationController?.pushViewController(newViewC, animated: true)
             }, duration: 0.5)
         
         
     }
-    override func prefersStatusBarHidden() -> Bool {
-        return true
+    override var prefersStatusBarHidden: Bool {
+        get {
+            return true
+        }  
     }
     
     
