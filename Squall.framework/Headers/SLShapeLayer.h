@@ -28,4 +28,18 @@
  */
 -(NSArray<SLShapePathLayer*>* _Nonnull)getPathLayersWithName:(NSString* _Nonnull)name;
 
+
+/*!
+ Returns all vector groups in this shape layer with the specified name (as named in your AE composition).
+ Groups are the scopes in a shape layer that have their own transform property.
+ Since AE does not enforce unique names it is possible that multiple groups are returned.
+ It is recommended to use unique names in your AE comp if you want to retrieve a specific group.
+ 
+ @param name	Name of the group you want to retrieve.
+ 
+ @return Array with CALayers, each representing a group with the passed in name
+ */
+-(NSArray<CALayer*>* _Nonnull)getGroupsWithName:(NSString* _Nonnull)name;
+
+
 @end

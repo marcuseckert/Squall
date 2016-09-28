@@ -25,3 +25,4 @@ FOUNDATION_EXPORT const unsigned char SquallVersionString[];
 #import "SLShapeLayer.h"
 #import "SLReader.h"
 #import "SLLicense.h"
+#import "SLPublicProtocols.h"

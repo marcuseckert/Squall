@@ -37,4 +37,14 @@
 
 -(SLAnimationInformation*_Nullable)parseFileAtPath:(NSString* _Nonnull)path error:(NSError*_Nullable*_Nullable)error;
 
+/*!
+ Reads the passed-in data and outputs an SLAnimationInformation object.
+ 
+ @param data	NSData containing the Squall JSON data
+ @param error   Optional pointer to an error
+ 
+ @return <SLAnimationInformation> instance which can then be used to create an animation.
+ */
+-(SLAnimationInformation*_Nullable)parseData:(NSData* _Nonnull)data error:(NSError*_Nullable*_Nullable)error;
+
 @end

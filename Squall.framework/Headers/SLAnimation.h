@@ -12,6 +12,7 @@
 #import "SLTextLayer.h"
 #import "SLShapeLayer.h"
 #import "SLShapePathLayer.h"
+#import "SLPublicProtocols.h"
 
 /*!
  Type of event fired during the playback of an animation.
@@ -28,7 +29,7 @@ typedef NS_ENUM(NSUInteger, SLAnimationEvent) {
      */
     SLAnimationEventEnd,
     /*!
-     Fires everytime the animation updates.
+     Fires every time the animation updates.
      */
     SLAnimationEventUpdate,
     /*!
@@ -149,16 +150,27 @@ Flips the playback direction when the animation approaches end or start.
 
 
 /*!
+ Squall will evaluate expressions whenever the time of the animation changes.
+ If you make changes to properties referenced in an expression you can call this method
+ to force an evaluation of all expressions attached to any layer properties contained in the animation.
+ For a more performant approach, you can also call the evaluateExpressions methode on the SLLayers whose properties you want
+ to update.
+ */
+- (void)evaluateExpressions;
+
+/*!
  Returns all the layers with a specific name in your AE composition.
  Since AE does not enforce unique names it is possible that multiple layers are returned.
  It is recommended to use unique names in your AE comp if you want to retrieve a specific layer.
+ Internal layers that were replaced with an external layer are elided.
+ Note: The returned layers are also guaranteed to be CALayers.
+ 
  
  @param name	AE composition layer name
  
  @return Array containing all the layers matching the input name.
  */
--(NSArray<CALayer*>*_Nullable)getLayersWithName:(NSString* _Nonnull)name;
-
+-(NSArray<id<SLLayerProtocol>>*_Nullable)getLayersWithName:(NSString* _Nonnull)name;
 
 /*!
  Convenience method that returns the first text layer matching the passed-in name.

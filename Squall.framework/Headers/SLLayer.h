@@ -7,10 +7,13 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
+#import "SLProperty.h"
+#import "SLPublicProtocols.h"
 
 /*!
  Represents the base layer type for SLAnimations
  */
-@interface SLLayer : CALayer
+@interface SLLayer : CALayer <SLLayerProtocol>
+
 
 @end

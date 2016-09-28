@@ -44,17 +44,16 @@
  
  @return SLSquallAnimation or nil on error
  */
-+(SLSquallAnimation* _Nullable)animationFromBundle:(NSString*_Nonnull)fileName error:(NSError*_Nullable*_Nullable)error;
++(SLSquallAnimation* _Nonnull)animationFromBundle:(NSString*_Nonnull)fileName error:(NSError*_Nullable*_Nullable)error;
 
 /*!
  Convenience method to initialize a SLSquallAnimation with a .sqa file at the passed-in path.
  
  @param path	Path to the .sqa file
- @param error	Optional pointer to a NSError
- 
+ @param error		Optional pointer to a NSError
  @return SLSquallAnimation or nil on error
  */
-+(SLSquallAnimation* _Nullable)animationFromPath:(NSString* _Nonnull)path error:(NSError*_Nonnull*_Nonnull)error;
++(SLSquallAnimation* _Nonnull)animationFromPath:(NSString* _Nonnull)path error:(NSError*_Nullable*_Nullable)error;
 
 /*!
  Convenience method to initialize an SLSquallAnimation with an animation file contained

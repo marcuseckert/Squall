@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ExpressionParser.js</key>
+		<data>
+		v66kwVOae7jK5PN8nbML+j1NjhY=
+		</data>
 		<key>Headers/SLAnimation.h</key>
 		<data>
-		UpU9hpj5c7kQ/st6UZLANalFB4w=
+		FvA0qULjY1OSyXNB91NGMBe6+X8=
 		</data>
 		<key>Headers/SLAnimationInformation.h</key>
 		<data>
-		frPitCs37L3/LMU+5sw41clfoE4=
+		s/AqbRkxQdk/MW0/lZsvkkE08UQ=
 		</data>
 		<key>Headers/SLCoreAnimation.h</key>
 		<data>
@@ -18,7 +22,7 @@
 		</data>
 		<key>Headers/SLLayer.h</key>
 		<data>
-		9tuetiq1WtIhB9EQqXYuOIqIaQY=
+		f6rKMYp2QUUh82npF5BR/Sssh8I=
 		</data>
 		<key>Headers/SLLicense.h</key>
 		<data>
@@ -30,15 +34,19 @@
 		</data>
 		<key>Headers/SLProperty.h</key>
 		<data>
-		7nGxhUn2kUK/El9XLRNUmv3idQ8=
+		RZFB5Rs2UZJo7QIVpA5WYzkqwqk=
+		</data>
+		<key>Headers/SLPublicProtocols.h</key>
+		<data>
+		kC91HFyJOCrq9xGJuT4TO+nwhB4=
 		</data>
 		<key>Headers/SLReader.h</key>
 		<data>
-		hhUZzDFZ8/57ht7TE9S70m4z/Qk=
+		6reBj+NsHtYiFg0cl4sFmzE/4Cs=
 		</data>
 		<key>Headers/SLShapeLayer.h</key>
 		<data>
-		PUq2Z9lfnx3+IJ/LVRrLRJiaP0c=
+		jbuquZmOpuW+MMkFaie2mAR+n+s=
 		</data>
 		<key>Headers/SLShapePathLayer.h</key>
 		<data>
@@ -46,7 +54,7 @@
 		</data>
 		<key>Headers/SLSquallAnimation.h</key>
 		<data>
-		HESNjsmZ3UK+L2gItc8rMdQwJag=
+		gRmTDcyW1Xs0TbDdQGnxC3WsbRE=
 		</data>
 		<key>Headers/SLTextLayer.h</key>
 		<data>
@@ -54,19 +62,31 @@
 		</data>
 		<key>Headers/Squall.h</key>
 		<data>
-		lqw+sGX+KXG5syzUoZWybhj4xtQ=
+		rjlAcEtNXaZwxLlaP/MKu8S0PAk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		or3+mI6Hv1PFHporS/t3cXtZSAo=
+		Hiinm4MPY18XOpJusCYSwHQKjag=
+		</data>
+		<key>JSManager.js</key>
+		<data>
+		yxnlVQjtiD+my5YThEDh5h7oFRs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		j0Hx32cHpoyz4oaa/59NEAdHVEY=
 		</data>
+		<key>SLExpressionProxyInterface.js</key>
+		<data>
+		7TOCAcOxAnxVSKV2t4LZZfHIi+E=
+		</data>
 		<key>betaKey.der</key>
 		<data>
 		mBgvRHJ0MC0d/ADy4UlmyLFIcXI=
+		</data>
+		<key>esprima.js</key>
+		<data>
+		I2RnUopfkhZAumKK5UAUzHOMTnI=
 		</data>
 		<key>rsaCert.der</key>
 		<data>
@@ -79,26 +99,37 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ExpressionParser.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v66kwVOae7jK5PN8nbML+j1NjhY=
+			</data>
+			<key>hash2</key>
+			<data>
+			4SjEyNV8guyEI+/n+WKl0IL3/OAqpjtUIOq3wgMh0DU=
+			</data>
+		</dict>
 		<key>Headers/SLAnimation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UpU9hpj5c7kQ/st6UZLANalFB4w=
+			FvA0qULjY1OSyXNB91NGMBe6+X8=
 			</data>
 			<key>hash2</key>
 			<data>
-			10HxM/EIRjUqeQSOolFdm2q4Vv/mSVMl4OLWzrI824A=
+			fgEkgbCoHNtA008DbwIjYV2lUNizWKVL6thGCUXdiB4=
 			</data>
 		</dict>
 		<key>Headers/SLAnimationInformation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			frPitCs37L3/LMU+5sw41clfoE4=
+			s/AqbRkxQdk/MW0/lZsvkkE08UQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			he9Rctry3yuOlvJ/YuXYaDh6BjxRwtsgqYvhn61HBU8=
+			faEqlv0JVW8gZ2dsH40VnsNyiYzeESJEWJkYIslMITQ=
 			</data>
 		</dict>
 		<key>Headers/SLCoreAnimation.h</key>
@@ -116,11 +147,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9tuetiq1WtIhB9EQqXYuOIqIaQY=
+			f6rKMYp2QUUh82npF5BR/Sssh8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			VT9PvMOn9sWZM6IGvbUqdP9LNy9H///MVQW/aJ1XjoM=
+			w5R7l02cUfSLt4u6o0MSFWyRQJcXIeUknhAV4bmo7eY=
 			</data>
 		</dict>
 		<key>Headers/SLLicense.h</key>
@@ -149,33 +180,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7nGxhUn2kUK/El9XLRNUmv3idQ8=
+			RZFB5Rs2UZJo7QIVpA5WYzkqwqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			vwS3WlcdlQsWTnIDeJbCwiSPlAZ7jcsH+ljcNNz7T2s=
+			fpaydrJmC2eySipHM3BtrA5GgWo+fcYs3H6vVQjBRk4=
+			</data>
+		</dict>
+		<key>Headers/SLPublicProtocols.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kC91HFyJOCrq9xGJuT4TO+nwhB4=
+			</data>
+			<key>hash2</key>
+			<data>
+			XnnLIjVFEDOJHjkCpIqHbBNUTWzbi5mZ7ZV8gkTRwBo=
 			</data>
 		</dict>
 		<key>Headers/SLReader.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hhUZzDFZ8/57ht7TE9S70m4z/Qk=
+			6reBj+NsHtYiFg0cl4sFmzE/4Cs=
 			</data>
 			<key>hash2</key>
 			<data>
-			wP9jOoOnbfv+U0kFrqkV7laDwPRW/++soP9LkIyv3DA=
+			igYgcm7OQYeOXSdGd2+EjTs2AZQj1EcyuySCUdtaXdM=
 			</data>
 		</dict>
 		<key>Headers/SLShapeLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PUq2Z9lfnx3+IJ/LVRrLRJiaP0c=
+			jbuquZmOpuW+MMkFaie2mAR+n+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			VX+PTMLmBP13N6AHSMFz5aL0nH68IA/N6OSJVzElgyc=
+			NtE2HzQEG0LHbSj4cGDxUd0/mKPm+LpD5fErmtuwq5A=
 			</data>
 		</dict>
 		<key>Headers/SLShapePathLayer.h</key>
@@ -193,11 +235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HESNjsmZ3UK+L2gItc8rMdQwJag=
+			gRmTDcyW1Xs0TbDdQGnxC3WsbRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			eMEDREQ7yRkxoCgkm3/pa8jiQ48s/u/wChax7DvlFqo=
+			rklGCpIKqZYmxG2Zu/TyDfa67taZtCqq1B5VnXD8REE=
 			</data>
 		</dict>
 		<key>Headers/SLTextLayer.h</key>
@@ -215,11 +257,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lqw+sGX+KXG5syzUoZWybhj4xtQ=
+			rjlAcEtNXaZwxLlaP/MKu8S0PAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			DXe0lRnYMObKiTk6vtM0mEf0aZF+Rz3gHGPykO5d63w=
+			PCLrHkim+yl7rsALzL5Y8wKvTaADI+20nPui5GPgq34=
+			</data>
+		</dict>
+		<key>JSManager.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yxnlVQjtiD+my5YThEDh5h7oFRs=
+			</data>
+			<key>hash2</key>
+			<data>
+			mDnor4KjdyvLbzb3qg4Xmf9ucW7Nq5JGOJG1A2Osw2E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -233,6 +286,17 @@
 			ogvVdESvgmloHvypZdId2i7NwTTOw4C0QVoJL/YIddo=
 			</data>
 		</dict>
+		<key>SLExpressionProxyInterface.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7TOCAcOxAnxVSKV2t4LZZfHIi+E=
+			</data>
+			<key>hash2</key>
+			<data>
+			7E4zMzNO0Go3QZsmcJmqB9AyUIcgnG9aWdNZwe/Tkgo=
+			</data>
+		</dict>
 		<key>betaKey.der</key>
 		<dict>
 			<key>hash</key>
@@ -242,6 +306,17 @@
 			<key>hash2</key>
 			<data>
 			4w6V+dwHLy6XcRLbD2BeFx0HfH4WFWjSLYM3p/3m3M8=
+			</data>
+		</dict>
+		<key>esprima.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I2RnUopfkhZAumKK5UAUzHOMTnI=
+			</data>
+			<key>hash2</key>
+			<data>
+			duq+MWhkD1qZqGznRXR1YfIgcnM9ONHn8gUMSEStwGM=
 			</data>
 		</dict>
 		<key>rsaCert.der</key>
