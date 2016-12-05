@@ -3,7 +3,7 @@
 //  Squall
 //
 //  Created by Marcus Eckert on 21.02.2016.
-//  Copyright © 2016 Marcus Eckert AS. All rights reserved.
+//  Copyright © 2016 Forge and Form GmbH. All rights reserved.
 //
 
 #import <Squall/Squall.h>
@@ -91,6 +91,8 @@
  @return SLCoreAnimation or nil on error.
  */
 +(SLCoreAnimation*_Nullable)animationFromBundle:(NSString*_Nonnull)fileName;
+
+
 
 /*!
  Convenience method to initialize a SLCoreAnimation with an animation file from the passed-in path.

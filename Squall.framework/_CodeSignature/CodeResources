@@ -10,15 +10,15 @@
 		</data>
 		<key>Headers/SLAnimation.h</key>
 		<data>
-		FvA0qULjY1OSyXNB91NGMBe6+X8=
+		tr1oC++p9PCSz7Lcd+O7JAN5yNA=
 		</data>
 		<key>Headers/SLAnimationInformation.h</key>
 		<data>
-		s/AqbRkxQdk/MW0/lZsvkkE08UQ=
+		JtjJ01dVXHWIuBwA9oYab7OrJZc=
 		</data>
 		<key>Headers/SLCoreAnimation.h</key>
 		<data>
-		7ty6p5qfDwJXMU/xkjnLuO+kWuI=
+		dkiEflBHGEltn1UE20Y1Zt/mdIo=
 		</data>
 		<key>Headers/SLLayer.h</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>Headers/SLLicense.h</key>
 		<data>
-		ezTzYdmFipeGs8GJPUb9iI8aY94=
+		iTmgCj6sFT1dp9zSm9+3XHqIAOE=
 		</data>
 		<key>Headers/SLLivePreview.h</key>
 		<data>
-		bSDKiDWUuAH4VU9xsS/SAgCVD/w=
+		iDwkq7cOIqbgCQDvTKz//f+6I/0=
 		</data>
 		<key>Headers/SLProperty.h</key>
 		<data>
-		RZFB5Rs2UZJo7QIVpA5WYzkqwqk=
+		s0Rbou9bPQpUJwF8R3/UuiLieUg=
 		</data>
 		<key>Headers/SLPublicProtocols.h</key>
 		<data>
@@ -42,31 +42,31 @@
 		</data>
 		<key>Headers/SLReader.h</key>
 		<data>
-		6reBj+NsHtYiFg0cl4sFmzE/4Cs=
+		ccb1e520HnCwnmfJkUum+gcXr1w=
 		</data>
 		<key>Headers/SLShapeLayer.h</key>
 		<data>
-		jbuquZmOpuW+MMkFaie2mAR+n+s=
+		MnezgurnzAFebtlrhAvZdG9YEck=
 		</data>
 		<key>Headers/SLShapePathLayer.h</key>
 		<data>
-		MEfiyFa4H68ybbfGXl06px3jxE8=
+		MJAJaTRMLsbUjgdLuPO5VX1Sc3k=
 		</data>
 		<key>Headers/SLSquallAnimation.h</key>
 		<data>
-		gRmTDcyW1Xs0TbDdQGnxC3WsbRE=
+		ZmW4qGkZmbo8d7NFlmX0eXighRM=
 		</data>
 		<key>Headers/SLTextLayer.h</key>
 		<data>
-		CGlKHWGNhgNeDd7Pb9ySjPDHRn8=
+		WB2FFBXCQ6V3hJ3cwjnlznMSHnY=
 		</data>
 		<key>Headers/Squall.h</key>
 		<data>
-		rjlAcEtNXaZwxLlaP/MKu8S0PAk=
+		dPoK7xz5FBd8FVkWmaFxZr50sC0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Hiinm4MPY18XOpJusCYSwHQKjag=
+		sESOvcv92BQRdDqsNKSBk8W8XOE=
 		</data>
 		<key>JSManager.js</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>squallLicense.pdf</key>
 		<data>
-		uoWHPpQSc4xGlYXR491Zr0Gdm90=
+		kYZvlpNor6nVZ5p5kZOFKHjY3o4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -114,33 +114,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FvA0qULjY1OSyXNB91NGMBe6+X8=
+			tr1oC++p9PCSz7Lcd+O7JAN5yNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			fgEkgbCoHNtA008DbwIjYV2lUNizWKVL6thGCUXdiB4=
+			8e4QbpSdzDTxphLR5nVtfqgvqaJfmYROVTB97fk9iqc=
 			</data>
 		</dict>
 		<key>Headers/SLAnimationInformation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s/AqbRkxQdk/MW0/lZsvkkE08UQ=
+			JtjJ01dVXHWIuBwA9oYab7OrJZc=
 			</data>
 			<key>hash2</key>
 			<data>
-			faEqlv0JVW8gZ2dsH40VnsNyiYzeESJEWJkYIslMITQ=
+			7TIsd0ngUDW1NFjmXn1xGTUcpcr+MriaAZFc9dFrnn4=
 			</data>
 		</dict>
 		<key>Headers/SLCoreAnimation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7ty6p5qfDwJXMU/xkjnLuO+kWuI=
+			dkiEflBHGEltn1UE20Y1Zt/mdIo=
 			</data>
 			<key>hash2</key>
 			<data>
-			NMqOqCgVF2fTF4vfGyWm23kVFrAqhUQER7waZpjOCg4=
+			wh6SaPsSD0gA8+/OO2wwtsNdo8UD4t59xL6hU/jWl6k=
 			</data>
 		</dict>
 		<key>Headers/SLLayer.h</key>
@@ -158,33 +158,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ezTzYdmFipeGs8GJPUb9iI8aY94=
+			iTmgCj6sFT1dp9zSm9+3XHqIAOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z1XKAXzSI77a1JZYaWVuP9UemMWZ4V8M9hxMgQxSrYY=
+			mgep2wXKMHipTJ7pRLl0Md9Ar6X7VFsImEwO1+uQAOY=
 			</data>
 		</dict>
 		<key>Headers/SLLivePreview.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bSDKiDWUuAH4VU9xsS/SAgCVD/w=
+			iDwkq7cOIqbgCQDvTKz//f+6I/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			HZFdc1gJZD/ompunjn7p+6HIo8kg7O5hPrHWDG8gSbM=
+			w/kv/HErZhQpcgD91BD1mfn3eG2qBu7BWd8H7AHPd1U=
 			</data>
 		</dict>
 		<key>Headers/SLProperty.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RZFB5Rs2UZJo7QIVpA5WYzkqwqk=
+			s0Rbou9bPQpUJwF8R3/UuiLieUg=
 			</data>
 			<key>hash2</key>
 			<data>
-			fpaydrJmC2eySipHM3BtrA5GgWo+fcYs3H6vVQjBRk4=
+			basirkN8WzfZsjtC3AqDeeV7KMPklrFxI1l6TcA/AYY=
 			</data>
 		</dict>
 		<key>Headers/SLPublicProtocols.h</key>
@@ -202,66 +202,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6reBj+NsHtYiFg0cl4sFmzE/4Cs=
+			ccb1e520HnCwnmfJkUum+gcXr1w=
 			</data>
 			<key>hash2</key>
 			<data>
-			igYgcm7OQYeOXSdGd2+EjTs2AZQj1EcyuySCUdtaXdM=
+			Ve4D1N1DZd3klWRivdMqtz+hDFUAgH3MlUP6I4fg5Jw=
 			</data>
 		</dict>
 		<key>Headers/SLShapeLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jbuquZmOpuW+MMkFaie2mAR+n+s=
+			MnezgurnzAFebtlrhAvZdG9YEck=
 			</data>
 			<key>hash2</key>
 			<data>
-			NtE2HzQEG0LHbSj4cGDxUd0/mKPm+LpD5fErmtuwq5A=
+			qz1UIfFgIsiyHzb+B9on1WTgQ7/amxikS3XdbpZ1nRg=
 			</data>
 		</dict>
 		<key>Headers/SLShapePathLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MEfiyFa4H68ybbfGXl06px3jxE8=
+			MJAJaTRMLsbUjgdLuPO5VX1Sc3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			IoXsRFDTk7/dhZib9/4ANJ5XmIe9xY+mZSl/k5jIVbw=
+			wtt7SikBHHBZChnMjecFh1qqV0mexof9JKWA+MTLihw=
 			</data>
 		</dict>
 		<key>Headers/SLSquallAnimation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gRmTDcyW1Xs0TbDdQGnxC3WsbRE=
+			ZmW4qGkZmbo8d7NFlmX0eXighRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			rklGCpIKqZYmxG2Zu/TyDfa67taZtCqq1B5VnXD8REE=
+			GBPDDH73LGPQe3CHC9a/pZXfQdw9Zs0cMx3lPmUEPwM=
 			</data>
 		</dict>
 		<key>Headers/SLTextLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CGlKHWGNhgNeDd7Pb9ySjPDHRn8=
+			WB2FFBXCQ6V3hJ3cwjnlznMSHnY=
 			</data>
 			<key>hash2</key>
 			<data>
-			H4gFmJD02ASD9AjYzSTVhhidLNsw28C5frQHETv5YPQ=
+			MIiqJkclTmyi/kzIu49c8OFZjBkIaVW+9Wf1H3jMuM4=
 			</data>
 		</dict>
 		<key>Headers/Squall.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rjlAcEtNXaZwxLlaP/MKu8S0PAk=
+			dPoK7xz5FBd8FVkWmaFxZr50sC0=
 			</data>
 			<key>hash2</key>
 			<data>
-			PCLrHkim+yl7rsALzL5Y8wKvTaADI+20nPui5GPgq34=
+			GP0ycSlpCDemMmyesUncBDWXpAlb16EZTzhEjLRRZf4=
 			</data>
 		</dict>
 		<key>JSManager.js</key>
@@ -334,11 +334,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uoWHPpQSc4xGlYXR491Zr0Gdm90=
+			kYZvlpNor6nVZ5p5kZOFKHjY3o4=
 			</data>
 			<key>hash2</key>
 			<data>
-			d/a+B2GSMqVEsyZyNnWQxqFEnt6xkyhJaIPZKupXfZU=
+			1i5ZZElFA/SS4CAvN/mej1Ygyy37v8u/ElmZqMKBYEE=
 			</data>
 		</dict>
 	</dict>
@@ -359,6 +359,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -404,6 +409,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

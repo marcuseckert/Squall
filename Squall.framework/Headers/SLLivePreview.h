@@ -3,7 +3,7 @@
 //  Squall
 //
 //  Created by Marcus Eckert on 21.02.2016.
-//  Copyright © 2016 Marcus Eckert AS. All rights reserved.
+//  Copyright © 2016 Forge and Form GmbH. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

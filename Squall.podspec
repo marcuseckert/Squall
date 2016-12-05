@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Squall"
-  s.version          = "2.0"
+  s.version          = "2.02"
   s.summary          = "Squall  - After Effects to iOS."
   s.ios.deployment_target = "8.0"
   s.platform     = :ios, '8.0'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = "https://github.com/marcuseckert/Squall"
   s.license = { :type => 'Commercial', :file => 'LICENSE' }
-  s.author           = { "Marcus Eckert" => "hello@squall.no" }
+  s.author           = { "Forge and Form GmbH" => "hello@squall.no" }
   s.source           = { :git => "https://github.com/marcuseckert/Squall.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/marcus_eckert'
 
