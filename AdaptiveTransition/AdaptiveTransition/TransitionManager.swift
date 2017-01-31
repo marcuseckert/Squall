@@ -36,7 +36,7 @@ class TransitionManager: NSObject, UIViewControllerAnimatedTransitioning {
                 }
                 else if (property.name == "Height") {
                     property.value = toView?.bounds.size.height
-                } else if (property.name == "AnchorPoint") {
+                } else if (property.name == "Anchor Point") {
                     //Note that the Anchor Point has three values and is expressed in points.
                     property.value = [toView!.bounds.size.width*0.5, toView!.bounds.size.height*0.5, 0]
                 }
@@ -46,7 +46,7 @@ class TransitionManager: NSObject, UIViewControllerAnimatedTransitioning {
                 }
                 else if (property.name == "Height") {
                     property.value = fromView?.bounds.size.height
-                } else if (property.name == "AnchorPoint") {
+                } else if (property.name == "Anchor Point") {
                     //Note that the Anchor Point has three values and is expressed in points.
                     property.value = [fromView!.bounds.size.width*0.5, fromView!.bounds.size.height*0.5, 0]
                 } else if (property.name == "Color") {
