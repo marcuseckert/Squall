@@ -10,15 +10,15 @@
 		</data>
 		<key>Headers/SLAnimation.h</key>
 		<data>
-		tr1oC++p9PCSz7Lcd+O7JAN5yNA=
+		FvA0qULjY1OSyXNB91NGMBe6+X8=
 		</data>
 		<key>Headers/SLAnimationInformation.h</key>
 		<data>
-		JtjJ01dVXHWIuBwA9oYab7OrJZc=
+		0YJROG3QD9MKs9l5etgszNvsuA0=
 		</data>
 		<key>Headers/SLCoreAnimation.h</key>
 		<data>
-		dkiEflBHGEltn1UE20Y1Zt/mdIo=
+		QooNuju5rmtf1JfM2dg8vmiLP90=
 		</data>
 		<key>Headers/SLLayer.h</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>Headers/SLLicense.h</key>
 		<data>
-		iTmgCj6sFT1dp9zSm9+3XHqIAOE=
+		ezTzYdmFipeGs8GJPUb9iI8aY94=
 		</data>
 		<key>Headers/SLLivePreview.h</key>
 		<data>
-		iDwkq7cOIqbgCQDvTKz//f+6I/0=
+		9iO+5ZeH7454C/YD3vYQP7uvk8k=
 		</data>
 		<key>Headers/SLProperty.h</key>
 		<data>
-		s0Rbou9bPQpUJwF8R3/UuiLieUg=
+		RZFB5Rs2UZJo7QIVpA5WYzkqwqk=
 		</data>
 		<key>Headers/SLPublicProtocols.h</key>
 		<data>
@@ -42,31 +42,31 @@
 		</data>
 		<key>Headers/SLReader.h</key>
 		<data>
-		ccb1e520HnCwnmfJkUum+gcXr1w=
+		6reBj+NsHtYiFg0cl4sFmzE/4Cs=
 		</data>
 		<key>Headers/SLShapeLayer.h</key>
 		<data>
-		MnezgurnzAFebtlrhAvZdG9YEck=
+		jbuquZmOpuW+MMkFaie2mAR+n+s=
 		</data>
 		<key>Headers/SLShapePathLayer.h</key>
 		<data>
-		MJAJaTRMLsbUjgdLuPO5VX1Sc3k=
+		MEfiyFa4H68ybbfGXl06px3jxE8=
 		</data>
 		<key>Headers/SLSquallAnimation.h</key>
 		<data>
-		ZmW4qGkZmbo8d7NFlmX0eXighRM=
+		tSMbo3R+Nz8flYnCwNomf7kYWzg=
 		</data>
 		<key>Headers/SLTextLayer.h</key>
 		<data>
-		WB2FFBXCQ6V3hJ3cwjnlznMSHnY=
+		CGlKHWGNhgNeDd7Pb9ySjPDHRn8=
 		</data>
 		<key>Headers/Squall.h</key>
 		<data>
-		dPoK7xz5FBd8FVkWmaFxZr50sC0=
+		rjlAcEtNXaZwxLlaP/MKu8S0PAk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sESOvcv92BQRdDqsNKSBk8W8XOE=
+		p81c1eaK6fTbKa4Duk3DmQXPwsY=
 		</data>
 		<key>JSManager.js</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>squallLicense.pdf</key>
 		<data>
-		kYZvlpNor6nVZ5p5kZOFKHjY3o4=
+		uoWHPpQSc4xGlYXR491Zr0Gdm90=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -114,33 +114,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tr1oC++p9PCSz7Lcd+O7JAN5yNA=
+			FvA0qULjY1OSyXNB91NGMBe6+X8=
 			</data>
 			<key>hash2</key>
 			<data>
-			8e4QbpSdzDTxphLR5nVtfqgvqaJfmYROVTB97fk9iqc=
+			fgEkgbCoHNtA008DbwIjYV2lUNizWKVL6thGCUXdiB4=
 			</data>
 		</dict>
 		<key>Headers/SLAnimationInformation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JtjJ01dVXHWIuBwA9oYab7OrJZc=
+			0YJROG3QD9MKs9l5etgszNvsuA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			7TIsd0ngUDW1NFjmXn1xGTUcpcr+MriaAZFc9dFrnn4=
+			kFoWHIOJ6dyQ8lySUc+RPsSSDxYfoca5+2xhZ9pS7YE=
 			</data>
 		</dict>
 		<key>Headers/SLCoreAnimation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dkiEflBHGEltn1UE20Y1Zt/mdIo=
+			QooNuju5rmtf1JfM2dg8vmiLP90=
 			</data>
 			<key>hash2</key>
 			<data>
-			wh6SaPsSD0gA8+/OO2wwtsNdo8UD4t59xL6hU/jWl6k=
+			/Sk6RNRj/cNfBhp+Xxx/yEgkNcUykZiHaPRO1+DhMq0=
 			</data>
 		</dict>
 		<key>Headers/SLLayer.h</key>
@@ -158,33 +158,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iTmgCj6sFT1dp9zSm9+3XHqIAOE=
+			ezTzYdmFipeGs8GJPUb9iI8aY94=
 			</data>
 			<key>hash2</key>
 			<data>
-			mgep2wXKMHipTJ7pRLl0Md9Ar6X7VFsImEwO1+uQAOY=
+			Z1XKAXzSI77a1JZYaWVuP9UemMWZ4V8M9hxMgQxSrYY=
 			</data>
 		</dict>
 		<key>Headers/SLLivePreview.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iDwkq7cOIqbgCQDvTKz//f+6I/0=
+			9iO+5ZeH7454C/YD3vYQP7uvk8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			w/kv/HErZhQpcgD91BD1mfn3eG2qBu7BWd8H7AHPd1U=
+			qUbs7vQfcVLFDkeTjEwJ00ZpjAQ8RYcLw6zJmpafy/c=
 			</data>
 		</dict>
 		<key>Headers/SLProperty.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s0Rbou9bPQpUJwF8R3/UuiLieUg=
+			RZFB5Rs2UZJo7QIVpA5WYzkqwqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			basirkN8WzfZsjtC3AqDeeV7KMPklrFxI1l6TcA/AYY=
+			fpaydrJmC2eySipHM3BtrA5GgWo+fcYs3H6vVQjBRk4=
 			</data>
 		</dict>
 		<key>Headers/SLPublicProtocols.h</key>
@@ -202,66 +202,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ccb1e520HnCwnmfJkUum+gcXr1w=
+			6reBj+NsHtYiFg0cl4sFmzE/4Cs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ve4D1N1DZd3klWRivdMqtz+hDFUAgH3MlUP6I4fg5Jw=
+			igYgcm7OQYeOXSdGd2+EjTs2AZQj1EcyuySCUdtaXdM=
 			</data>
 		</dict>
 		<key>Headers/SLShapeLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MnezgurnzAFebtlrhAvZdG9YEck=
+			jbuquZmOpuW+MMkFaie2mAR+n+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			qz1UIfFgIsiyHzb+B9on1WTgQ7/amxikS3XdbpZ1nRg=
+			NtE2HzQEG0LHbSj4cGDxUd0/mKPm+LpD5fErmtuwq5A=
 			</data>
 		</dict>
 		<key>Headers/SLShapePathLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MJAJaTRMLsbUjgdLuPO5VX1Sc3k=
+			MEfiyFa4H68ybbfGXl06px3jxE8=
 			</data>
 			<key>hash2</key>
 			<data>
-			wtt7SikBHHBZChnMjecFh1qqV0mexof9JKWA+MTLihw=
+			IoXsRFDTk7/dhZib9/4ANJ5XmIe9xY+mZSl/k5jIVbw=
 			</data>
 		</dict>
 		<key>Headers/SLSquallAnimation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZmW4qGkZmbo8d7NFlmX0eXighRM=
+			tSMbo3R+Nz8flYnCwNomf7kYWzg=
 			</data>
 			<key>hash2</key>
 			<data>
-			GBPDDH73LGPQe3CHC9a/pZXfQdw9Zs0cMx3lPmUEPwM=
+			cm+AVbOPODhKYKdykFWFtG19xFK1m5hYVbg+MDsNZB0=
 			</data>
 		</dict>
 		<key>Headers/SLTextLayer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WB2FFBXCQ6V3hJ3cwjnlznMSHnY=
+			CGlKHWGNhgNeDd7Pb9ySjPDHRn8=
 			</data>
 			<key>hash2</key>
 			<data>
-			MIiqJkclTmyi/kzIu49c8OFZjBkIaVW+9Wf1H3jMuM4=
+			H4gFmJD02ASD9AjYzSTVhhidLNsw28C5frQHETv5YPQ=
 			</data>
 		</dict>
 		<key>Headers/Squall.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dPoK7xz5FBd8FVkWmaFxZr50sC0=
+			rjlAcEtNXaZwxLlaP/MKu8S0PAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			GP0ycSlpCDemMmyesUncBDWXpAlb16EZTzhEjLRRZf4=
+			PCLrHkim+yl7rsALzL5Y8wKvTaADI+20nPui5GPgq34=
 			</data>
 		</dict>
 		<key>JSManager.js</key>
@@ -334,11 +334,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kYZvlpNor6nVZ5p5kZOFKHjY3o4=
+			uoWHPpQSc4xGlYXR491Zr0Gdm90=
 			</data>
 			<key>hash2</key>
 			<data>
-			1i5ZZElFA/SS4CAvN/mej1Ygyy37v8u/ElmZqMKBYEE=
+			d/a+B2GSMqVEsyZyNnWQxqFEnt6xkyhJaIPZKupXfZU=
 			</data>
 		</dict>
 	</dict>

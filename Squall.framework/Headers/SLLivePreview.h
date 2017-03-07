@@ -3,7 +3,7 @@
 //  Squall
 //
 //  Created by Marcus Eckert on 21.02.2016.
-//  Copyright © 2016 Forge and Form GmbH. All rights reserved.
+//  Copyright © 2016 Marcus Eckert AS. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -53,6 +53,20 @@ SLSizingOriginal,
  @param livePreview	Live preview instance
  */
 -(void)squallReceivedAnimation:(SLLivePreview*)livePreview;
+
+/*!
+ Callback when Squall has received new animation data from After Effects. 
+ If this method is implemented -squallReceivedAnimation will not be called. 
+ 
+ You will be responsible to also remove any created animation (if necessary) when you receive an update.
+ 
+ @param livePreview	Live preview instance
+ @param data	NSData object containing JSON data to build an animation
+ @param dic	NSDictionary object containing additional information about the animation
+ */
+-(void)squall:(SLLivePreview*)livePreview receivedAnimationData:(NSData*)data withDictionary:(NSDictionary<NSString*, id>*)dic;
+
+
 /*!
  Callback when Squall encountered an error.
  

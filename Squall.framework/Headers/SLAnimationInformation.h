@@ -3,7 +3,7 @@
 //  Squall
 //
 //  Created by Marcus Eckert on 09.01.2016.
-//  Copyright © 2016 Forge and Form GmbH. All rights reserved.
+//  Copyright © 2016 Marcus Eckert AS. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -15,6 +15,15 @@
  @see SLReader
  */
 @interface SLAnimationInformation : NSObject
+
+/**
+ Returns true if the animation package contains a layer with the passed-in name.
+ The name should match the one you set in After Effects.
+
+ @param name Name of the layer you are looking for
+ @return YES if it contains the layer in question
+ */
+-(BOOL)hasLayerWithName:(NSString*)name;
 
 /*!
  Before building an animation you can replace the internal layers with already existing layers.

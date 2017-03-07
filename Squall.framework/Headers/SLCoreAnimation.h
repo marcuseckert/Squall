@@ -3,7 +3,7 @@
 //  Squall
 //
 //  Created by Marcus Eckert on 21.02.2016.
-//  Copyright © 2016 Forge and Form GmbH. All rights reserved.
+//  Copyright © 2016 Marcus Eckert AS. All rights reserved.
 //
 
 #import <Squall/Squall.h>
@@ -92,7 +92,14 @@
  */
 +(SLCoreAnimation*_Nullable)animationFromBundle:(NSString*_Nonnull)fileName;
 
-
+/*!
+ Convenience method to build a SLReader in the background and construct a SLCoreAnimation from it.
+ Only the SLReader will be built in the background since a SLCoreAnimation has to be built and manipulated on the main thread.
+  
+ @param fileName	.sqa file name of the animation to build
+ @param onReady     block that returns the built animation or an error. Returns on the main thread.
+ */
++(void)animationFromBundleAsync:(NSString*_Nonnull)fileName onReady:(void(^_Nonnull)(SLCoreAnimation*_Nullable animation, NSError*_Nullable error))onReady;
 
 /*!
  Convenience method to initialize a SLCoreAnimation with an animation file from the passed-in path.
