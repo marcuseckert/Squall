@@ -1,5 +1,5 @@
 <img src="http://marcuseckert.com/squallSandbox/images/logoBlack.svg" width="50" />
-# Squall
+Squall
 This repository contains the latest version of the Squall SDK as well as After Effects and Xcode projects to help better understand it.
 Some examples will also have a companion tutorial explaining some concepts in detail.
 
@@ -8,8 +8,8 @@ Some examples will also have a companion tutorial explaining some concepts in de
 ### [Spinner](http://marcuseckert.com/squall/tutorials/spinner)
 Learn how to create a spinner in After Effects and use the SLCoreAnimationBuildDelegate to manipulate the animations as they are being built.
 
-![Spinner][spinner]
-[spinner]: http://marcuseckert.com/squallSandbox/images/spinner.gif "Spinner"
+<img src="http://marcuseckert.com/squallSandbox/images/spinner.gif" />
+
 [more...](http://marcuseckert.com/squall/tutorials/spinner)
 
 ### [Adaptive Transition](http://marcuseckert.com/squall/tutorials/transition)
