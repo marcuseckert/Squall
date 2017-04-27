@@ -25,11 +25,15 @@ class Spinner: UIView, SLCoreAnimationBuildDelegate {
         } catch {
             print("error \(error)")
         }
-        
         if animationInfo != nil {
             let a = SLCoreAnimation.init()
             a.buildDelegate = self
             a.build(with:animationInfo!)
+            
+            //We set the playback type to custom since we 
+            //are controlling the timing ourselves and don't 
+            //want Squall to stop the animation once it has played
+            a.playbackType = SLPlaybackTypeCustom
             a.play()
             
             //We set the view's frame to the frame of the animation
@@ -51,33 +55,33 @@ class Spinner: UIView, SLCoreAnimationBuildDelegate {
                 for ani in group.animations! as! [CAKeyframeAnimation] {
                     if ani.keyPath == "transform.rotation.z" {
                         //We set the repeat count to the hightest amount possible
-                        ani.repeatCount = FLT_MAX
+                        ani.repeatCount = Float.greatestFiniteMagnitude
                     }
                 }
             
         case "SpinnerPath":
                 for ani in group.animations! as! [CAKeyframeAnimation] {
                     if  ani.keyPath == "strokeColor" || ani.keyPath == "strokeEnd" {
-                        ani.repeatCount = FLT_MAX
+                        ani.repeatCount = Float.greatestFiniteMagnitude
                     }
                 }
         case "SpinnerGroup":
                 for ani in group.animations! as! [CAKeyframeAnimation] {
                     if ani.keyPath == "transform.rotation.z" {
-                        ani.repeatCount = FLT_MAX
+                        ani.repeatCount = Float.greatestFiniteMagnitude
                     }
                 }
         default:
             break
         }
         //We set the duration for all animation groups to the hightest amount possible
-        group.duration = DBL_MAX
+        group.duration = Double.greatestFiniteMagnitude
 
         //Printing the output before manipulating the animations is a good idea.
         
         //print("AE Layer: \(name)")
         //for ani : CAKeyframeAnimation in group.animations! as! [CAKeyframeAnimation] {
-        //    print("\tanimating \(ani.keyPath)")
+        //    print("\tanimating \(ani.keyPath!)")
         //}
         return group;
     }

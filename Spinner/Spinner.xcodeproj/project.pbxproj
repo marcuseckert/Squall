@@ -14,9 +14,9 @@
 		7A591FA91CE1536E000FAF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A591FA71CE1536E000FAF03 /* LaunchScreen.storyboard */; };
 		7A591FB61CE154C3000FAF03 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A591FB51CE154C3000FAF03 /* Spinner.swift */; };
 		7A591FB81CE154E3000FAF03 /* spinner.sqa in Resources */ = {isa = PBXBuildFile; fileRef = 7A591FB71CE154E3000FAF03 /* spinner.sqa */; };
-		7AC60BC01D880AD4001D82FC /* Squall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC60BBF1D880AD4001D82FC /* Squall.framework */; };
-		7AC60BC11D880ADB001D82FC /* Squall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC60BBF1D880AD4001D82FC /* Squall.framework */; };
-		7AC60BC21D880ADB001D82FC /* Squall.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC60BBF1D880AD4001D82FC /* Squall.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7AF8A9101EB21EAF00FA8ADB /* Squall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF8A90F1EB21EAF00FA8ADB /* Squall.framework */; };
+		7AF8A9111EB21EBE00FA8ADB /* Squall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF8A90F1EB21EAF00FA8ADB /* Squall.framework */; };
+		7AF8A9121EB21EBE00FA8ADB /* Squall.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF8A90F1EB21EAF00FA8ADB /* Squall.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7AC60BC21D880ADB001D82FC /* Squall.framework in Embed Frameworks */,
+				7AF8A9121EB21EBE00FA8ADB /* Squall.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,7 +43,7 @@
 		7A591FAA1CE1536E000FAF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A591FB51CE154C3000FAF03 /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		7A591FB71CE154E3000FAF03 /* spinner.sqa */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spinner.sqa; sourceTree = "<group>"; };
-		7AC60BBF1D880AD4001D82FC /* Squall.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Squall.framework; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Release-iphoneos/Squall.framework"; sourceTree = "<group>"; };
+		7AF8A90F1EB21EAF00FA8ADB /* Squall.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Squall.framework; path = ../Squall.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AC60BC11D880ADB001D82FC /* Squall.framework in Frameworks */,
-				7AC60BC01D880AD4001D82FC /* Squall.framework in Frameworks */,
+				7AF8A9111EB21EBE00FA8ADB /* Squall.framework in Frameworks */,
+				7AF8A9101EB21EAF00FA8ADB /* Squall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 		7A591F921CE1536E000FAF03 = {
 			isa = PBXGroup;
 			children = (
-				7AC60BBF1D880AD4001D82FC /* Squall.framework */,
+				7AF8A90F1EB21EAF00FA8ADB /* Squall.framework */,
 				7A591F9D1CE1536E000FAF03 /* Spinner */,
 				7A591F9C1CE1536E000FAF03 /* Products */,
 			);
