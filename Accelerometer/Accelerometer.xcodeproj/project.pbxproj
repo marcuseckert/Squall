@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A10A97D1D90EA480030A902 /* Squall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADC70951D90DC6E00E42283 /* Squall.framework */; };
-		7A10A97E1D90EA480030A902 /* Squall.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADC70951D90DC6E00E42283 /* Squall.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7A10A9811D90ED7F0030A902 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A10A9801D90ED7F0030A902 /* CoreMotion.framework */; };
 		7AC6E1291D90C08D00C834BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6E1281D90C08D00C834BB /* AppDelegate.swift */; };
 		7AC6E12B1D90C08D00C834BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6E12A1D90C08D00C834BB /* ViewController.swift */; };
@@ -17,8 +15,8 @@
 		7AC6E1331D90C08D00C834BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC6E1311D90C08D00C834BB /* LaunchScreen.storyboard */; };
 		7AC6E1401D90C23A00C834BB /* expressionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC6E13F1D90C23A00C834BB /* expressionController.swift */; };
 		7AC6E1421D90C28800C834BB /* accelerometer.sqa in Resources */ = {isa = PBXBuildFile; fileRef = 7AC6E1411D90C28800C834BB /* accelerometer.sqa */; };
-		7ADC70931D90DBB600E42283 /* Squall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADC70911D90DBB100E42283 /* Squall.framework */; };
-		7ADC70961D90DC6E00E42283 /* Squall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADC70951D90DC6E00E42283 /* Squall.framework */; };
+		7AF7F9B21F1D3A6A00D25EE3 /* Squall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF7F9B01F1D3A6900D25EE3 /* Squall.framework */; };
+		7AF7F9B31F1D3A6A00D25EE3 /* Squall.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF7F9B01F1D3A6900D25EE3 /* Squall.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7A10A97E1D90EA480030A902 /* Squall.framework in Embed Frameworks */,
+				7AF7F9B31F1D3A6A00D25EE3 /* Squall.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,8 +44,7 @@
 		7AC6E1341D90C08D00C834BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AC6E13F1D90C23A00C834BB /* expressionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = expressionController.swift; sourceTree = "<group>"; };
 		7AC6E1411D90C28800C834BB /* accelerometer.sqa */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = accelerometer.sqa; sourceTree = "<group>"; };
-		7ADC70911D90DBB100E42283 /* Squall.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Squall.framework; path = "/Users/marcuseckert/Dropbox (Privates)/SquallExamples/Accelerometer/Squall.framework"; sourceTree = "<absolute>"; };
-		7ADC70951D90DC6E00E42283 /* Squall.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Squall.framework; path = ../Squall.framework; sourceTree = "<group>"; };
+		7AF7F9B01F1D3A6900D25EE3 /* Squall.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Squall.framework; path = ../Squall.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A10A9811D90ED7F0030A902 /* CoreMotion.framework in Frameworks */,
-				7ADC70961D90DC6E00E42283 /* Squall.framework in Frameworks */,
-				7ADC70931D90DBB600E42283 /* Squall.framework in Frameworks */,
-				7A10A97D1D90EA480030A902 /* Squall.framework in Frameworks */,
+				7AF7F9B21F1D3A6A00D25EE3 /* Squall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +71,7 @@
 		7AC6E11C1D90C08D00C834BB = {
 			isa = PBXGroup;
 			children = (
-				7ADC70951D90DC6E00E42283 /* Squall.framework */,
+				7AF7F9B01F1D3A6900D25EE3 /* Squall.framework */,
 				7AC6E1271D90C08D00C834BB /* Accelerometer */,
 				7AC6E1261D90C08D00C834BB /* Products */,
 				7A10A97F1D90ED7F0030A902 /* Frameworks */,
@@ -305,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P53Q66SK8E;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					../,
 					"$(PROJECT_DIR)",
@@ -323,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P53Q66SK8E;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					../,
 					"$(PROJECT_DIR)",
