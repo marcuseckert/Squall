@@ -33,7 +33,7 @@ class Spinner: UIView, SLCoreAnimationBuildDelegate {
             //We set the playback type to custom since we 
             //are controlling the timing ourselves and don't 
             //want Squall to stop the animation once it has played
-            a.playbackType = SLPlaybackTypeCustom
+            a.playbackType = SLPlaybackType.custom
             a.play()
             
             //We set the view's frame to the frame of the animation
