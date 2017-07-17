@@ -44,8 +44,9 @@ typedef NS_ENUM(NSUInteger, SLAnimationEvent) {
  @warning Does not honor any external timing changes made to Core animations (e.g. using the <SLCoreAnimationBuildDelegate>);
  */
 typedef NS_ENUM(NSUInteger, SLPlaybackType) {
+
 /*!
-Plays the animation once. *Default*
+Plays the animation once and pauses at the end. *Default*
 */
     SLPlaybackTypeOnce,
 /*!
@@ -56,6 +57,10 @@ Jumps to the beginning when the animation ends.
 Flips the playback direction when the animation approaches end or start.
 */
     SLPlaybackTypePingPong,
+/*!
+Does not control timing of the animation. Useful in Core Animations when you are controlling the timing yourself.
+*/
+    SLPlaybackTypeCustom,
 };
 
 
