@@ -23,7 +23,7 @@
  @param name Name of the layer you are looking for
  @return YES if it contains the layer in question
  */
--(BOOL)hasLayerWithName:(NSString*)name;
+-(BOOL)hasLayerWithName:(NSString*_Nonnull)name;
 
 /*!
  Before building an animation you can replace the internal layers with already existing layers.

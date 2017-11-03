@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UiKit.h>
+#import <UIKit/UIKit.h>
 #import "SLAnimationInformation.h"
 #import "SLTextLayer.h"
 #import "SLShapeLayer.h"

@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SLAnimation.h</key>
 		<data>
-		eQk3VAyycYcXcwzmDqtW1h2bu+M=
+		nXhPpF3u+BovEeQTdw3NXJzH6WY=
 		</data>
 		<key>Headers/SLAnimationInformation.h</key>
 		<data>
-		0YJROG3QD9MKs9l5etgszNvsuA0=
+		gNEODua2el/LNEuFVLyk532aYXM=
 		</data>
 		<key>Headers/SLCoreAnimation.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		moupxz+YjYmjq8nws526u4ezxE4=
+		S7qaazs53sASU0gTZc4/F3hrcvA=
 		</data>
 		<key>JSManager.js</key>
 		<data>
@@ -114,22 +114,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eQk3VAyycYcXcwzmDqtW1h2bu+M=
+			nXhPpF3u+BovEeQTdw3NXJzH6WY=
 			</data>
 			<key>hash2</key>
 			<data>
-			gzHnIvAn63HAQu6WbiaFLqvRZ9fdwHd60epN3MfLrTg=
+			UvJa2LCD0/RMBdTUVHtuJ+6uTA37XA96CMhUyt/GSP0=
 			</data>
 		</dict>
 		<key>Headers/SLAnimationInformation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0YJROG3QD9MKs9l5etgszNvsuA0=
+			gNEODua2el/LNEuFVLyk532aYXM=
 			</data>
 			<key>hash2</key>
 			<data>
-			kFoWHIOJ6dyQ8lySUc+RPsSSDxYfoca5+2xhZ9pS7YE=
+			eF/wusmv02FFOLkO0yDAUbXxRovo5cKs6b2ZWRW3SbA=
 			</data>
 		</dict>
 		<key>Headers/SLCoreAnimation.h</key>
