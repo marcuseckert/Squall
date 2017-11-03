@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Squall"
-  s.version          = "2.46"
+  s.version          = "2.462"
   s.summary          = "Squall  - After Effects to iOS."
   s.ios.deployment_target = "8.0"
   s.platform     = :ios, '8.0'
