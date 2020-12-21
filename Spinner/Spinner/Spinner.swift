@@ -26,7 +26,7 @@ class Spinner: UIView, SLCoreAnimationBuildDelegate {
             print("error \(error)")
         }
         if animationInfo != nil {
-            let a = SLCoreAnimation.init()
+            let a = SLCoreAnimation()
             a.buildDelegate = self
             a.build(with:animationInfo!)
             
